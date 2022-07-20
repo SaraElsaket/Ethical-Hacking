@@ -2,7 +2,7 @@
 '''#Tracing
 #Q1.1 What is the Output
     #z = not y if (X%2 !=0) else X #if x is even (divisable by two) z=not y(Not True =False) Else z=x
-    Output: False(Not t)
+    Output: False #(Not t)
 # Q1.2
     #Output: <class 'list'>
     #<class 'list'>'''
