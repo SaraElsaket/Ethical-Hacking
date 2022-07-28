@@ -1,0 +1,30 @@
+body {
+    font-family: cursive;  
+    background: repeating-linear-gradient(45deg,  rgba(15, 132, 19, 0.3),  rgba(15, 132, 19, 0.3) 15px,   rgba(57, 0, 0, 0.3) 0,  rgba(57, 0, 0, 0.3) 30px);
+    text-align: center;
+  }
+input{
+    border-radius: 53px;
+    background: none;
+    border: none;
+    width: 80px;
+    height: 80px;
+}
+/*The CSS -webkit-appearance property allows web designers to make HTML components look more like native User Interface (UI) controls.*/
+input::-webkit-color-swatch {
+  border: none;
+  border-radius: 100%;
+  padding: 0px;
+}
+button {
+  width: 115px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 45px;
+  background-color: rgba(183, 62, 143, 0.7);
+  }
+button:hover{
+  background-color: rgb(132, 119, 119);
+}
