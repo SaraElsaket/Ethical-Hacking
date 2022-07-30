@@ -2,7 +2,7 @@
 #Q4.1
 import string
 import random
-# Letters and number decleration
+# letters and numbers decleration
 UpperCase = list(string.ascii_uppercase)
 LowerCase = list(string.ascii_lowercase)
 numbers = list(string.digits)
@@ -28,8 +28,8 @@ def passwordgenerator(length):
                 # append punctuatuions into password
                 for i in range(round(passlength * .3)):
                     password.append(numbers[i])
-                    
-                print(f"the password is : \t" + "".join(password))
+
+                print("the password is : "+ "".join(password))
                 break 
         except:
             print('Invalid entry: please enter a number\n')
