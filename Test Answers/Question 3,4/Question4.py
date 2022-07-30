@@ -2,7 +2,7 @@
 #Q4.1
 import string
 import random
-# define list of letters , digits and chars
+# Letters and number decleration
 UpperCase = list(string.ascii_uppercase)
 LowerCase = list(string.ascii_lowercase)
 numbers = list(string.digits)
