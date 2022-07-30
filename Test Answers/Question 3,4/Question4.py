@@ -20,15 +20,16 @@ def passwordgenerator(length):
                 random.shuffle(numbers)
                 random.shuffle(LowerCase)
                 #Apending [40% uppercase 30% lowercase and 30% numbers ] to password 
+                #Uppercase Letters
                 for i in range(round(passlength * .4)):
                     password.append(UpperCase[i])
-                # append digits into password
+                #Lowercase letters 
                 for i in range(round(passlength * .3)):
                     password.append(LowerCase[i])
-                # append punctuatuions into password
+                # Numbers
                 for i in range(round(passlength * .3)):
                     password.append(numbers[i])
-
+                #printing password
                 print("the password is : "+ "".join(password))
                 break 
         except:
