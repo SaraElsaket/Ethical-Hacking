@@ -28,9 +28,7 @@ def passwordgenerator(length):
                 # append punctuatuions into password
                 for i in range(round(passlength * .3)):
                     password.append(numbers[i])
-
-                password = "".join(password)
-
+                    
                 print(f"the password is : \t" + "".join(password))
                 break 
         except:
